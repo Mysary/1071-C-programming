@@ -49,7 +49,7 @@ void magic_Knight(int m[][MAX], int N)
         }
         else
         {
-            row=(row-N+1)%N;
+            row=(row-2+N)%N;
             col=(col+1)%N;
             m[row][col]=i;
         }
